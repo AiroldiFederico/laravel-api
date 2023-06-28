@@ -1,0 +1,94 @@
+@import '~bootstrap/scss/bootstrap';
+
+
+
+// PRESET ------------------------------------------------------------------------------------------
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+};
+    
+/* RESET LISTA - PALLINI CHE RIENTRANO NEL MAIN CENTRATO */
+li{
+     margin-left: 1em;
+};
+    
+/* RESET TABELLA - LINEE TRA COLONNE */
+table{
+    border-spacing: 0;
+};
+    
+/* PER NON INTERROMPERE IL FLUSSO CON FLOAT */
+.clearfix::after{
+     content: "";
+     clear: both;
+     display: table;
+};
+
+ul li {
+    list-style-type: none;
+};
+
+ul {
+    margin: 0;
+    padding: 0;
+};
+
+body {
+    font-family: 'Rubik', sans-serif !important; font-weight: bold !important;
+    word-spacing: 2px;
+    // height: 100vh !important;
+    min-height: 100vh;
+    background: url() center / cover no-repeat fixed;
+    background-color: #ffffff;
+    
+  
+};
+
+
+/* PRESET ------------------------------------------------------------------------------------------ */
+
+
+
+
+  .JobContainer {
+
+
+      .cardjob {
+
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      
+
+
+        padding: 35px;
+      
+        border: 1px solid rgba(255, 255, 255, .25);
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.45);
+        box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+      
+        backdrop-filter: blur(15px);
+      }
+      
+      .card-footer {
+        font-size: 0.65em;
+        color: #446;
+      }
+  }
+  
+
+  #id {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .navbar-brand {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
